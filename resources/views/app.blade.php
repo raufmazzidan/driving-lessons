@@ -23,7 +23,7 @@
       <a class="hover:underline" href="#contact">Contact</a>
     </div>
   </header>
-  <section class="" style="background: url({{asset('./img/main2.jpg')}});background-position:center;background-size:cover;">
+  <section class="" style="background: url({{asset('./img/main.jpg')}});background-position:center;background-size:cover;">
     <div class="lg:px-20 px-8 py-48" style="background: rgb(255,255,255);background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0.95) 50%, rgba(0,212,255,0) 100%);">
       <div class="max-w-xl flex flex-col gap-8">
         <h1 class="text-5xl max-w-lg font-semibold leading-normal">
