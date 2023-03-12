@@ -3,17 +3,22 @@ module.exports = {
   content: ['./resources/**/*.blade.php', './resources/**/*.js', './resources/**/*.vue'],
   theme: {
     colors: {
-      blue: '#1fb6ff',
-      purple: '#7e5bef',
-      pink: '#ff49db',
-      orange: '#ff7849',
-      green: '#13ce66',
-      yellow: '#ffc82c',
-      'gray-dark': '#273444',
-      gray: '#8492a6',
-      'gray-light': '#d3dce6',
+      white: '#FFFFFF',
+      purple: '#5c53fa',
+      purpleLight: '#6e66fa',
+      darkGrey: '#888888',
+      grey: '#d9d9d9',
+      black: '#1a1e21',
+      wa: '#25D366',
+      bronze: '#6A3805',
+      silver: '#B4B4B4',
+      gold: '#AF9500',
     },
-    extend: {},
+    extend: {
+      fontFamily: {
+        bebas: ['Bebas Neue', 'sans-serif'],
+      },
+    },
   },
   plugins: [],
 };
